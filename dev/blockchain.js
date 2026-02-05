@@ -129,7 +129,7 @@ Blockchain.prototype.getBatchData = function(batchId) {
   return batchData;
 };
 
-// Mocked for Remix VM Fork (local simulation) – no real Web3 call needed
+
 Blockchain.prototype.callSmartContract = async function(method, params) {
   console.log(`Mock smart contract call: ${method} with params ${JSON.stringify(params)}`);
   if (method === 'verifyBatch' || method === 'isVerified') {
