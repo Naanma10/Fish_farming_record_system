@@ -10,6 +10,8 @@
   "scripts": {
     "start": "nodemon --watch dev -e js dev/verinetworkNode.js 3001",
     "node_2": "nodemon --watch dev -e js dev/verinetworkNode.js 3002",
+     "node_3": "nodemon --watch dev -e js dev/verinetworkNode.js 3003",
+     "node_4": "nodemon --watch dev -e js dev/verinetworkNode.js 3004",
     "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
   },
   "dependencies": {
